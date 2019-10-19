@@ -18,6 +18,12 @@
 	<link rel="shortcut icon" href="1023BandeiraBr.ico">
         <link rel="apple-touch-icon" href="/BandeiraBr.png">
         <link rel='stylesheet' type='text/css' href="modelo.css" />
+
+
+        <link rel="stylesheet" ref="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body class='yellow'>
@@ -31,38 +37,30 @@
     </br>
     </br>
     </br>
-            <div class = "caixa">
-                <h1 class = "center">
-                        Login
-                </h1>
-                        <form class = "center">
-                               
 
-                        </br>
-                        </br>
-                        
-                               
-                                Usuário:</br>
-                                <input name = "Usuário"><br/><br/>
-                                Senha:</br>
-                                <input name = "Senha" type = "password"><br/><br/>
-                
-                                <input type = "checkbox" value = "Lembre-se de mim" name = "lp"/> Lembre-se de mim<br/><br/>
-                </br>
-                </br>
-                </br>
-
-                                <div class="center">
-                                        <button class = "green" type="submit">Entrar</button>
-                                </div>
-                
-                        </form>
-
-            </div>        
-
-
-
-
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+      
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <img src="https://cdn1.iconfinder.com/data/icons/instagram-ui-colored/48/JD-17-256.png" id="icon" alt="User Icon" />
+          </div>
+      
+          <!-- Login Form -->
+          <form>
+            <input type="text" id="login" class="fadeIn second" name="login" placeholder="E-mail">
+            <input type="text" id="password" class="fadeIn third" name="login" placeholder="Senha">
+            <input type="submit" class="fadeIn fourth" value="Entrar">
+          </form>
+      
+          <!-- Remind Passowrd -->
+          <div id="formFooter">
+            <a class="underlineHover" href="#">Esqueceu sua Senha?</a>
+          </div>
+      
+        </div>
+      </div>
         
 
         <div class="footer">
